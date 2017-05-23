@@ -10,8 +10,6 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
-    // LocaleModule.forRoot(), // New instance of LocaleService.
-    // LocalizationModule.forRoot(), // New instance of LocalizationService.
     CommonModule,
     // OrderModule,
     // DashboardRoutingModule
