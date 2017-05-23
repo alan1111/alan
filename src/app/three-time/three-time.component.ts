@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ont-time',
-  templateUrl: './ont-time.component.html',
-  styleUrls: ['./ont-time.component.less']
+  selector: 'app-three-time',
+  templateUrl: './three-time.component.html',
+  styleUrls: ['./three-time.component.less']
 })
-export class OntTimeComponent implements OnInit {
+export class ThreeTimeComponent implements OnInit {
 
   constructor() { }
 

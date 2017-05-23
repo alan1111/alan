@@ -1,21 +1,14 @@
-/**
- * Created by alan on 17-5-23.
- */
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-// import { DashboardComponent } from './dashboard.component';
-// import { DashboardRoutingModule } from './dashboard-routing.module';
-// import { OrderModule } from '../order/order.module';
-// import { LocaleModule, LocalizationModule } from 'angular2localization';
+import {ThreeTimeRoutingModule} from "./three-time.routing.module";
+import {ThreeTimeComponent} from "./three-time.component";
 
 @NgModule({
   imports: [
-    // LocaleModule.forRoot(), // New instance of LocaleService.
-    // LocalizationModule.forRoot(), // New instance of LocalizationService.
     CommonModule,
-    // OrderModule,
-    // DashboardRoutingModule
+    ThreeTimeComponent,
+    ThreeTimeRoutingModule
   ],
-  // declarations: [DashboardComponent],
+  declarations: [ThreeTimeComponent],
 })
-export class DashboardModule { }
+export class ThreeTimeModule { }

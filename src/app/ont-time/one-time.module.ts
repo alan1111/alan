@@ -1,19 +1,14 @@
-/**
- * Created by alan on 17-5-23.
- */
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-// import { DashboardComponent } from './dashboard.component';
-// import { DashboardRoutingModule } from './dashboard-routing.module';
-// import { OrderModule } from '../order/order.module';
-// import { LocaleModule, LocalizationModule } from 'angular2localization';
+import {OneTimeComponent} from "./one-time.component";
+import {OneTimeRoutingModule} from "./one-time.routing.module";
 
 @NgModule({
   imports: [
     CommonModule,
-    // OrderModule,
-    // DashboardRoutingModule
+    OneTimeRoutingModule,
+    OneTimeComponent
   ],
-  // declarations: [DashboardComponent],
+  declarations: [OneTimeComponent],
 })
-export class DashboardModule { }
+export class OneTimeModule { }

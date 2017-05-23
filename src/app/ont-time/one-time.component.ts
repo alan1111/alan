@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ont-time',
+  selector: 'app-one-time',
   templateUrl: 'one-time.component.html',
   styleUrls: ['one-time.component.less']
 })

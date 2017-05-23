@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { OntTimeComponent } from './ont-time.component';
+import { TwoTimeComponent } from './two-time.component';
 
-describe('OntTimeComponent', () => {
-  let component: OntTimeComponent;
-  let fixture: ComponentFixture<OntTimeComponent>;
+describe('TwoTimeComponent', () => {
+  let component: TwoTimeComponent;
+  let fixture: ComponentFixture<TwoTimeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OntTimeComponent ]
+      declarations: [ TwoTimeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OntTimeComponent);
+    fixture = TestBed.createComponent(TwoTimeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
