@@ -9,6 +9,9 @@ import {OneTimeRoutingModule} from "./one-time.routing.module";
     OneTimeRoutingModule,
     OneTimeComponent
   ],
+  exports: [
+    OneTimeComponent
+  ],
   declarations: [OneTimeComponent],
 })
 export class OneTimeModule { }
